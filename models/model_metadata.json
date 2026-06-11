@@ -1,0 +1,7 @@
+{
+  "model_name": "Logistic Regression",
+  "test_auc": 0.8458,
+  "cv_auc_mean": 0.8478,
+  "feature_count": 32,
+  "train_samples": 5634
+}

@@ -1,0 +1,5 @@
+run_name,timestamp,model_type,max_iter,class_weight,auc_roc,f1_score,precision,recall,cv_auc,n_estimators,max_depth,learning_rate,scale_pos_weight,subsample,reg_lambda,reg_alpha,min_child_weight,gamma,colsample_bytree
+Logistic_Regression,2026-06-11 13:56:20,LogisticRegression,1000.0,balanced,0.8458,0.6151,0.5052,0.7861,0.8478,,,,,,,,,,
+Random_Forest,2026-06-11 13:56:29,RandomForest,,,0.8431,0.6315,0.5364,0.7674,0.8452,200.0,10.0,,,,,,,,
+XGBoost_Baseline,2026-06-11 13:56:38,XGBoost,,,0.8423,0.6237,0.5216,0.7754,0.8416,300.0,4.0,0.05,2.77,,,,,,
+XGBoost_Tuned_BEST,2026-06-11 13:56:46,XGBoost_Tuned,,,0.8475,0.6332,0.5197,0.8102,0.8493,400.0,3.0,0.01,,0.6,1.5,0.1,5.0,0.1,0.5
