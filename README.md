@@ -30,14 +30,12 @@ retention team to intervene **before** they leave.
 
 ## 📊 Model Performance
 
-| Model | AUC-ROC | F1 Score | Precision | Recall |
-|---|---|---|---|---|
-| Logistic Regression | 0.843 | 0.612 | 0.671 | 0.563 |
-| Random Forest | 0.851 | 0.624 | 0.689 | 0.571 |
-| XGBoost Baseline | 0.868 | 0.641 | 0.701 | 0.591 |
-| **XGBoost Tuned** | **0.878** | **0.658** | **0.713** | **0.612** |
-
-> Update these numbers with your actual results from Phase 8.
+| Model               | AUC-ROC    |  F1 Score  | Precision  | Recall     |
+|---------------------|------------|------------|------------|------------|
+| Logistic Regression | 0.843      | 0.612      | 0.671      | 0.563      |
+| Random Forest       | 0.8431     | 0.6315     | 0.5364     | 0.7674     |
+| XGBoost Baseline    | 0.8423     | 0.6237     | 0.5216     | 0.7754     |
+| **XGBoost Tuned**   | **0.8475** | **0.6332** | **0.5197** | **0.8102** |
 
 ---
 
@@ -72,7 +70,7 @@ retention team to intervene **before** they leave.
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/customer-churn-prediction.git
+git clone https://github.com/nikhil2316n/customer-churn-prediction.git
 cd customer-churn-prediction
 ```
 
